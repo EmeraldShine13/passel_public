@@ -209,7 +209,7 @@ async def on_guild_channel_pins_update(channel, last_pin):
 
 
 # TODO Replace TOKEN with the token from discord developer portal 
-#client.run('MTAyNTQ4MTQyMDQ2MzkzOTYzNA.G8HUeH.7Nl5rqTpmGeDaOeEOvAG4dHgVu7rKrc6vpA3yA')
+#client.run('TOKEN')
 
 # TODO If using GitHub diff deployment on HeroKu comment out the above line with '#' and remove '#' from the line below to uncomment it. 
 client.run(os.environ.get('TOKEN'))
